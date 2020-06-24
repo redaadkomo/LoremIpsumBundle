@@ -1,0 +1,20 @@
+{
+  "name": "adkomo/lorem-ipsum-bundle",
+  "description": "Happy lorem ipsum",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reda Benzekri",
+      "email": "reda@adkomo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "KnpU\\LoremIpsumBundle\\": "src/"
+    }
+  }
+}
